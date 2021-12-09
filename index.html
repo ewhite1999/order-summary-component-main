@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Order summary card</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -33,21 +33,23 @@
           alt="girl dancing to music through headphones"
         />
       </div>
-      <h1 class="title dark">Order Summary</h1>
-      <p class="body thin">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <div class="plan_container">
-        <img src="./images/icon-music.svg" alt="music note" />
-        <div class="plan_details">
-          <p class="dark">Annual Plan</p>
-          <p class="thin" id="price">$59.99/year</p>
+      <div class="card_contents">
+        <h1 class="title dark">Order Summary</h1>
+        <p class="body thin">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="plan_container">
+          <img src="./images/icon-music.svg" alt="music note" />
+          <div class="plan_details">
+            <p class="dark">Annual Plan</p>
+            <p class="thin" id="price">$59.99/year</p>
+          </div>
+          <a href="#" id="change_plan">Change</a>
         </div>
-        <a href="#" id="change_plan">Change</a>
+        <a href="#" class="link" id="proceed">Proceed to Payment</a>
+        <a href="#" class="link" id="cancel">Cancel Order</a>
       </div>
-      <a href="#" id="proceed">Proceed to Payment</a>
-      <a href="#" id="cancel">Cancel Order</a>
     </div>
 
     <div class="attribution">
