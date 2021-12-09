@@ -74,6 +74,10 @@ body {
   margin-left: auto;
   color: hsl(251, 45%, 44%);
 }
+.plan_container a:hover {
+  text-decoration: none;
+  opacity: 0.75;
+}
 .link {
   display: block;
   text-decoration: none;
@@ -90,8 +94,16 @@ body {
   box-shadow: 0 15px 10px var(--pale_blue);
 }
 
+#proceed:hover {
+  opacity: 0.75;
+}
+
 #cancel {
   color: var(--desaturated_blue);
+}
+
+#cancel:hover {
+  color: var(--dark_blue);
 }
 
 @media only screen and (min-width: 370px) {
